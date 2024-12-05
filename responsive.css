@@ -1,0 +1,66 @@
+@media (max-width: 375px) {
+    body {
+        height: 80rem;
+    }
+
+    .main {
+        width: 37.5rem;
+        height: 80rem;
+        position: relative;
+    }
+    .main .description {
+        padding: 3.2rem 3.2rem;
+        background: linear-gradient(to bottom right, #ffffff, #fff1f1);
+    }
+
+    .main .description .icon-text {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    .main .description .title {
+        margin-top: 34.5rem;
+        font-size: 4rem;
+        letter-spacing: 1.2rem;
+        line-height: 4.5rem;
+        text-align: center;
+        width: 31rem;
+    }
+
+    .main .description .text {
+        margin-top: 1.6rem;
+        width: 31rem;
+        line-height: 2.3rem;
+        text-align: center;
+    }
+
+    .main .description .form {
+        margin-top: 3.2rem;
+        width: 31rem;
+        height: 4.8rem;
+    }
+
+    .main .description .form .email {
+        width: 31rem;
+        height: 4.8rem;
+        padding: 1rem 2.4rem;
+    }
+
+    .main .description .form .email::placeholder {
+        font-size: 1.6rem;
+    }
+
+    .main .description .form .btn-submit {
+        width: 6.4rem;
+        height: 4.8rem;
+        box-shadow: 0rem 01rem 2rem #f8bfbf;
+    }
+
+    .main .img-main {
+        width: 37.5rem;
+        height: 25rem;
+        background-image: url(./assets/images/img-model-mobile.jpg);
+        position: absolute;
+        top: 10rem;
+    }
+}

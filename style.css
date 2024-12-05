@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    width: 144rem;
+    height: 80rem;
+    font-family: "Josefin sans", sans-serif;
+    display: flex;
+}
+
+.main .description {
+    width: 83rem;
+    height: 80rem;
+    background-image: url(./assets/images/image-bg.svg);
+    padding: 7.5rem 22rem 15.2rem 16.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .description .icon-text {
+    width: 15.6rem;
+    height: 3.9rem;
+}
+
+.main .description .title {
+    font-size: 6.5rem;
+    font-weight: 500;
+
+    letter-spacing: 1.5rem;
+    margin-top: 13.5rem;
+    line-height: 7rem;
+}
+
+.main .description .title .we-re {
+    color: #ce9898;
+    font-weight: 300;
+}
+
+.main .description .text {
+    color: #ce9898;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-top: 3.2rem;
+}
+
+.main .description .form {
+    margin-top: 4rem;
+    height: 5.6rem;
+    width: 44.5rem;
+    position: relative;
+}
+
+.main .description .form .email {
+    border: 0.5px solid #ce9898;
+    height: 5.6rem;
+    width: 44.5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 3.2rem;
+    font-size: 1.6rem;
+}
+
+.main .description .form .email::placeholder {
+    color: #ce9898;
+}
+
+.main .description .form .btn-submit {
+    background: linear-gradient(to right bottom, #f8bfbf, #ee8b8b);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 10rem;
+    height: 5.6rem;
+    border-radius: 3rem;
+    border: none;
+    position: absolute;
+    right: 0;
+    box-shadow: 0rem 2rem 3rem #f8bfbf;
+}
+
+.main .description .form .btn-submit:hover {
+    transition: ease-in-out 0.7;
+    background: #f3caca;
+    cursor: pointer;
+}
+
+.main .description .form .icon-alert {
+    position: absolute;
+    right: 11.5rem;
+    top: 29%;
+}
+
+.main .description .form .text-alert {
+    color: hsl(0, 93%, 68%);
+    font-size: 1.6rem;
+    margin-left: 3.2rem;
+    margin-top: 1.5rem;
+}
+
+.main .img-main {
+    background-image: url(./assets/images/img-model.jpg);
+    background-size: cover;
+    width: 61rem;
+    height: 80rem;
+}
